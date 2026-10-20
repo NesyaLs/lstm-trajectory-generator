@@ -1,0 +1,20 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Data (not redistributable, see README)
+*.csv
+flights_txt/
+flights_txt_for_training/
+dataset/
+
+# Model weights and generated output
+*.pt
+generated/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
